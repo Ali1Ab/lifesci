@@ -2,20 +2,78 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "NunitoSans-Bold";
+  src: url(/fonts/NunitoSans-Bold.ttf);
+}
+@font-face {
+  font-family: "ProximaNova.ttf";
+  src: url(/fonts/ProximaNova.ttf);
+}
+h1 {
+  font-family: "ProximaNova.ttf";
+  font-size: 68px;
+  line-height: 60px;
+}
+h2 {
+  font-family: "ProximaNova.ttf";
+  font-size: 45px;
+  line-height: 40px;
+}
+h3 {
+  font-family: "ProximaNova.ttf";
+  font-size: 30px;
+  line-height: 28px;
+}
+h4 {
+  font-family: "ProximaNova.ttf";
+  font-size: 24px;
+  line-height: 22px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+p {
+  font-family: "NunitoSans-Bold";
+  @apply text-2xl;
+}
+.nsan {
+  font-family: "NunitoSans-Bold";
+}
+.proxima {
+  font-family: "ProximaNova.ttf";
+}
+.text-white {
+  color: #fff;
+}
+.yellow-hover:hover {
+  color: #f0bc68 !important;
+}
+.blue-bg {
+  background-color: #06163b;
+}
+.text-blue {
+  color: #06163b;
+}
+.text-yellow {
+  color: #f0bc68 !important;
+}
+.home-bnr {
+  background-image: url(/imgs/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  box-shadow: inset 0 0 0 1000px rgba(6, 22, 59, 0.55);
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.btn-prm {
+  background-color: #f0bc68;
+  color: #06163b;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: "bolder";
+  cursor: pointer;
+  font-family: "NunitoSans-Bold";
+  white-space: nowrap;
 }
