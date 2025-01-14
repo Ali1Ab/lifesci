@@ -1,5 +1,6 @@
 "use client";
 import { Menu } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -25,7 +26,7 @@ const Header = () => {
                     {/* Logo */}
                     <div className="text-yellow-400 font-bold text-2xl">
                         {/* <BannerLogo color="yellow" /> */}
-                        LOGO
+                        <Image src="/imgs/expertree.png" width={300} height={200} alt="LifeSci Logo" />
                     </div>
 
                     {/* Desktop Navigation */}
