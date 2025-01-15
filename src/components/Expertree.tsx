@@ -11,7 +11,7 @@ const Expertree = () => {
                     <div className="col-span-3 md:col-span-2">
                         <AosComp aos="fade-up">
                             <p className="text-center md:text-left text-yellow">Expertree</p>
-                            <h3 className="text-white mb-12 mt-3 text-center md:text-left">Meet Our New Platform</h3>
+                            <h3 className="text-white mb-12 mt-3 text-center md:text-left">Hire Consultants Online With Our Platform</h3>
 
                             <div className="col-span-1 flex items-center md:hidden">
                                 <AosComp aos="zoom-in">
@@ -19,8 +19,7 @@ const Expertree = () => {
                                 </AosComp>
                             </div>
 
-                            <p className="text-xl text-white my-12  w-full  md:w-3/4">Our new platform offers a varitey of services. It allows you to digitally hire the perfect consultants to proper your business.
-                                All hiring procedures are automated. And the best part of it is owr powerful searching engine that will help you find consultant tailored to your specific needs.</p>
+                            <p className="text-xl text-white my-12  w-full  md:w-3/4">Our platform offers a range of services designed to enhance your business. Effortlessly hire pre-selected, highly qualified consultants directly on the platform through our fully automated system. As a one-stop shop, we handle everything from hiring to payroll, ensuring you find experts perfectly tailored to your specific needs with our powerful search engine.</p>
                             <Link href="https://expertree.com" className="btn-prm px-4 py-2 rounded-lg mt-4">Visit Expertree</Link>
                         </AosComp>
                     </div>

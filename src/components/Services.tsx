@@ -53,7 +53,7 @@ const Services = () => {
                         <div className="col-span-3 lg:col-span-1" >
                             <div className="bg-[#f6f6f6] rounded-lg p-8 min-h-[320px]" >
                                 <Atom className="text-red-500 w-12 h-12" />
-                                <h4 className="font-bold my-4 text-2xl">Pharmaceutical Industry</h4>
+                                <h4 className="font-bold my-4 text-2xl">Chemistry</h4>
                                 <p className="text-lg">We provide comprehensive regulatory consulting services to navigate the intricate regulatory landscape, foster responsible chemical stewardship, and promote innovation in the chemical industry.</p>
                             </div>
                         </div>
