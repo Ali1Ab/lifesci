@@ -26,7 +26,7 @@ const Header = () => {
                     {/* Logo */}
                     <div className="text-yellow-400 font-bold text-2xl">
                         {/* <BannerLogo color="yellow" /> */}
-                        <Image src="/imgs/lsc.png" width={50} height={50} alt="LifeSci Logo" />
+                        <Image src="/imgs/lsclogo.png" width={70} height={70} alt="LifeSci Logo" />
                     </div>
 
                     {/* Desktop Navigation */}
