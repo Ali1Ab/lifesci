@@ -82,7 +82,7 @@ const Contact = () => {
                 <AosComp aos="fade-up">
                     <p className="text-center text-blue">Contact Us</p>
                     <h3 className="text-center text-blue mb-3 mt-3">We Would Like To Hear From You</h3>
-                    <p className="text-center text-lg">Phone Number: <a href="tel:+41766723176">+41 76 672 31 76</a></p>
+                    <p className="text-center text-lg">Phone Number: <a href="tel:+41763252836">+41 76 325 28 36</a></p>
                     <p className="text-center text-lg">Email: <a href="mailto:info@lsconsulting.ch">info@lsconsulting.ch</a></p>
                 </AosComp>
                 <AosComp aos="fade-up">
